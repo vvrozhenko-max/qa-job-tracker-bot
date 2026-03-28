@@ -26,7 +26,8 @@
 *Цей розділ демонструє підхід до тестування даного продукту.*
 
 ### 1. Тестова документація
-- **Mind Map & State Transition:** [Посилання на схему в Draw.io / Notion] *(Тут буде лінк на твої схеми)*
+- **State Transition Diagram:** Логіка переходів статусів вакансії.
+![State Transition Diagram](docs/Vacancy_State_Transition.png)
 - **Test Cases & Checklists:** [Посилання на Qase.io / таблицю] *(Тут буде лінк на твої тест-кейси)*
 - **Postman Collection:** У папці `/api_testing` цього репозиторію лежить експортована колекція з налаштованими запитами до Telegram API для тестування відправки повідомлень та вебхуків.
 
