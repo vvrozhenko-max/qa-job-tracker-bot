@@ -2,9 +2,7 @@
   "info": {
     "_postman_id": "cb2e1d6d-2c1d-4e16-bef6-1729826fb0f7",
     "name": "QA Job Tracker - Webhook API",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "49956334",
-    "_collection_link": "https://go.postman.co/collection/49956334-cb2e1d6d-2c1d-4e16-bef6-1729826fb0f7?source=collection_link"
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
@@ -14,7 +12,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"update_id\": 100000002,\n  \"message\": {\n    \"message_id\": 202,\n    \"from\": {\n      \"id\": 430025631,\n      \"is_bot\": false,\n      \"first_name\": \"Viktor\"\n    },\n    \"chat\": {\n      \"id\": 430025631,\n      \"type\": \"private\"\n    },\n    \"date\": 1711800005,\n    \"text\": \"URL на вакансію\"\n  }\n}",
+          "raw": "{\n  \"update_id\": 100000001,\n  \"message\": {\n    \"message_id\": 201,\n    \"from\": {\n      \"id\": 123456789,\n      \"is_bot\": false,\n      \"first_name\": \"QA Tester\"\n    },\n    \"chat\": {\n      \"id\": 123456789,\n      \"type\": \"private\"\n    },\n    \"date\": 1711800000,\n    \"text\": \"URL на вакансію\"\n  }\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -22,7 +20,7 @@
           }
         },
         "url": {
-          "raw": "https://script.google.com/macros/s/AKfycbxX_9bhuyVHEttaepGxTje-UT9TA-pr4UUS982HtR63zrp4Q1N5e5IJ2dLxypNHtvG4/exec",
+          "raw": "https://script.google.com/macros/s/YOUR_GOOGLE_SCRIPT_WEBHOOK_URL/exec",
           "protocol": "https",
           "host": [
             "script",
@@ -32,7 +30,7 @@
           "path": [
             "macros",
             "s",
-            "AKfycbxX_9bhuyVHEttaepGxTje-UT9TA-pr4UUS982HtR63zrp4Q1N5e5IJ2dLxypNHtvG4",
+            "YOUR_GOOGLE_SCRIPT_WEBHOOK_URL",
             "exec"
           ]
         }
@@ -46,7 +44,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"update_id\": 100000002,\n  \"message\": {\n    \"message_id\": 202,\n    \"from\": {\n      \"id\": 430025631,\n      \"is_bot\": false,\n      \"first_name\": \"Viktor\"\n    },\n    \"chat\": {\n      \"id\": 430025631,\n      \"type\": \"private\"\n    },\n    \"date\": 1711800005,\n    \"text\": \"https://djinni.co/jobs/815036-junior-qa-engineer/\"\n  }\n}",
+          "raw": "{\n  \"update_id\": 100000002,\n  \"message\": {\n    \"message_id\": 202,\n    \"from\": {\n      \"id\": 123456789,\n      \"is_bot\": false,\n      \"first_name\": \"QA Tester\"\n    },\n    \"chat\": {\n      \"id\": 123456789,\n      \"type\": \"private\"\n    },\n    \"date\": 1711800005,\n    \"text\": \"https://djinni.co/jobs/815036-junior-qa-engineer/\"\n  }\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -54,7 +52,7 @@
           }
         },
         "url": {
-          "raw": "https://script.google.com/macros/s/AKfycbxX_9bhuyVHEttaepGxTje-UT9TA-pr4UUS982HtR63zrp4Q1N5e5IJ2dLxypNHtvG4/exec",
+          "raw": "https://script.google.com/macros/s/YOUR_GOOGLE_SCRIPT_WEBHOOK_URL/exec",
           "protocol": "https",
           "host": [
             "script",
@@ -64,7 +62,7 @@
           "path": [
             "macros",
             "s",
-            "AKfycbxX_9bhuyVHEttaepGxTje-UT9TA-pr4UUS982HtR63zrp4Q1N5e5IJ2dLxypNHtvG4",
+            "YOUR_GOOGLE_SCRIPT_WEBHOOK_URL",
             "exec"
           ]
         }
@@ -78,12 +76,27 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"update_id\": 100000002,\n  \"message\": {\n    \"message_id\": 202,\n    \"from\": {\n      \"id\": 430025631,\n      \"is_bot\": false,\n      \"first_name\": \"Viktor\"\n    },\n    \"chat\": {\n      \"id\": 430025631,\n      \"type\": \"private\"\n    },\n    \"date\": 1711800005,\n    \"text\": \"https://djinni.co/jobs/815036-junior-qa-engineer/\"\n  }\n}",
+          "raw": "{\n  \"update_id\": 100000003,\n  \"message\": {\n    \"message_id\": 203,\n    \"from\": {\n      \"id\": 123456789,\n      \"is_bot\": false,\n      \"first_name\": \"QA Tester\"\n    },\n    \"chat\": {\n      \"id\": 123456789,\n      \"type\": \"private\"\n    },\n    \"date\": 1711800010,\n    \"text\": \"https://djinni.co/jobs/815036-junior-qa-engineer/\"\n  }\n}",
           "options": {
             "raw": {
               "language": "json"
             }
           }
+        },
+        "url": {
+          "raw": "https://script.google.com/macros/s/YOUR_GOOGLE_SCRIPT_WEBHOOK_URL/exec",
+          "protocol": "https",
+          "host": [
+            "script",
+            "google",
+            "com"
+          ],
+          "path": [
+            "macros",
+            "s",
+            "YOUR_GOOGLE_SCRIPT_WEBHOOK_URL",
+            "exec"
+          ]
         }
       },
       "response": []
