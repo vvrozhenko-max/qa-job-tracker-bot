@@ -1,4 +1,4 @@
-# 🎯 QA Job Tracker Bot (v1.3)
+# 🎯 QA Job Tracker Bot (v1.4 Final)
 
 ![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)
 ![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-Backend-green)
